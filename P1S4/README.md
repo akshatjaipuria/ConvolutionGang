@@ -1,5 +1,5 @@
 
-Maximum validation accuracy reached : 99.43 at epoch 17th
+Maximum validation accuracy reached : 99.43 at epoch 17th  
 Total number of parameters : 10,040
 
 Logs:  
