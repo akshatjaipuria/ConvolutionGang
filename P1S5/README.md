@@ -84,7 +84,53 @@ Analysis:
 2. The most appropriate augmentations we found was a bit of rotation and random cut, using the 22x22 centre pixels with a probability of 10%.
 3. Also, dropout value had to be reduced to 2%.
 ```
-
+## Final Model:
+```
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 8, 26, 26]              72
+              ReLU-2            [-1, 8, 26, 26]               0
+       BatchNorm2d-3            [-1, 8, 26, 26]              16
+           Dropout-4            [-1, 8, 26, 26]               0
+            Conv2d-5           [-1, 16, 24, 24]           1,152
+              ReLU-6           [-1, 16, 24, 24]               0
+       BatchNorm2d-7           [-1, 16, 24, 24]              32
+           Dropout-8           [-1, 16, 24, 24]               0
+         MaxPool2d-9           [-1, 16, 12, 12]               0
+           Conv2d-10            [-1, 8, 12, 12]             128
+             ReLU-11            [-1, 8, 12, 12]               0
+      BatchNorm2d-12            [-1, 8, 12, 12]              16
+          Dropout-13            [-1, 8, 12, 12]               0
+           Conv2d-14           [-1, 16, 10, 10]           1,152
+             ReLU-15           [-1, 16, 10, 10]               0
+      BatchNorm2d-16           [-1, 16, 10, 10]              32
+          Dropout-17           [-1, 16, 10, 10]               0
+           Conv2d-18             [-1, 16, 8, 8]           2,304
+             ReLU-19             [-1, 16, 8, 8]               0
+      BatchNorm2d-20             [-1, 16, 8, 8]              32
+          Dropout-21             [-1, 16, 8, 8]               0
+           Conv2d-22             [-1, 16, 6, 6]           2,304
+             ReLU-23             [-1, 16, 6, 6]               0
+      BatchNorm2d-24             [-1, 16, 6, 6]              32
+          Dropout-25             [-1, 16, 6, 6]               0
+           Conv2d-26             [-1, 10, 4, 4]           1,440
+             ReLU-27             [-1, 10, 4, 4]               0
+      BatchNorm2d-28             [-1, 10, 4, 4]              20
+          Dropout-29             [-1, 10, 4, 4]               0
+        AvgPool2d-30             [-1, 10, 1, 1]               0
+           Conv2d-31             [-1, 10, 1, 1]             100
+================================================================
+Total params: 8,832
+Trainable params: 8,832
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 0.60
+Params size (MB): 0.03
+Estimated Total Size (MB): 0.64
+----------------------------------------------------------------
+```
 ## Final Model's training epochs:
 ```
  0%|          | 0/469 [00:00<?, ?it/s]
