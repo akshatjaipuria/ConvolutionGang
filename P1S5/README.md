@@ -3,6 +3,8 @@ This folder contains a stepwise analysis of building a CNN model for MNIST digit
 2. Less than or equal to 15 Epochs.  
 3. Less than 10000 Parameters.  
 
+*The model is implemented using PyTorch.*
+
 ## Notebook 1
 ```
 Targets:  
