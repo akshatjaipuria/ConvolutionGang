@@ -3,7 +3,7 @@ This folder contains a stepwise analysis of building a CNN model for MNIST digit
 2. Less than or equal to 15 Epochs.  
 3. Less than 10000 Parameters.  
 
-##Notebook 1
+## Notebook 1
 ```
 Targets:  
 1. Check if the code works properly.
@@ -19,7 +19,7 @@ Analysis:
 1. Code works fine without any issues.
 2. Model is heavier than what might be required for this dataset.
 ```
-##Notebook 2
+## Notebook 2
 ```
 Targets:
 1. Reduce the parameters count, close to the target.
@@ -35,7 +35,7 @@ Analysis:
 2. Slight improvement in test accuracy.
 3. We clearly see over-fitting.
 ```
-##Notebook 3
+## Notebook 3
 ```
 Targets:
 1. Fixing over-fitting.
@@ -51,7 +51,7 @@ Analysis:
 2. Number of parameters are still more than the target.
 3. The target accuracy still isn't achieved.
 ```
-##Notebook 4
+## Notebook 4
 ```
 Targets:
 1. Replacing the last layer with GAP + 1x1 convolution to remove the big kernel.
@@ -67,7 +67,7 @@ Analysis:
 2. We are close to the target accuracy.
 3. With lesser parameters, we also reduced the dropout value.
 ```
-##Notebook 5
+## Notebook 5
 ```
 Targets:
 1. To  get the desired accuracy.
@@ -85,7 +85,7 @@ Analysis:
 3. Also, dropout value had to be reduced to 2%.
 ```
 
-##Final Model's trainig epochs:
+## Final Model's trainig epochs:
 ```
  0%|          | 0/469 [00:00<?, ?it/s]
 EPOCH: 1
