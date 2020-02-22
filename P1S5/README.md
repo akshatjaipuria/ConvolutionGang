@@ -85,7 +85,7 @@ Analysis:
 3. Also, dropout value had to be reduced to 2%.
 ```
 
-## Final Model's trainig epochs:
+## Final Model's training epochs:
 ```
  0%|          | 0/469 [00:00<?, ?it/s]
 EPOCH: 1
