@@ -1,9 +1,10 @@
-
+```
 Maximum validation accuracy reached : 99.43 at epoch 17th  
 Total number of parameters : 10,040
+```
 
-Logs:  
-
+##Logs:  
+```
   0%|          | 0/469 [00:00<?, ?it/s]
 Epoch: 1/20..
  
@@ -183,3 +184,4 @@ loss=0.0334927961230278 batch_id=468: 100%|██████████| 469/4
 Train set: Average loss: 0.0172, Accuracy: 59684/60000 (99.473%)  
 
 Test set: Average loss: 0.0214, Accuracy: 9933/10000 (99.330%)  
+```
