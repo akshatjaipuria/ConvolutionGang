@@ -1,4 +1,4 @@
-##About
+## About  
 The notebook contains the logs of running the same model for 40 epochs with following criteria:
    * Without L1 and L2 Regularizations
    * With L1 Regularization
