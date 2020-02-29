@@ -1,9 +1,10 @@
+## Insight
 ```
 Maximum validation accuracy reached : 99.43 at epoch 17th  
 Total number of parameters : 10,040
 ```
 
-##Logs:  
+## Logs:  
 ```
   0%|          | 0/469 [00:00<?, ?it/s]
 Epoch: 1/20..
