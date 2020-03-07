@@ -20,7 +20,7 @@
              ReLU-15           [-1, 32, 16, 16]               0
       BatchNorm2d-16           [-1, 32, 16, 16]              64
           Dropout-17           [-1, 32, 16, 16]               0
-        <b>Conv2d-18           [-1, 32, 16, 16]           9,216</b>
+           Conv2d-18           [-1, 32, 16, 16]           9,216   <--- Dilated Convolution 
              ReLU-19           [-1, 32, 16, 16]               0
       BatchNorm2d-20           [-1, 32, 16, 16]              64
           Dropout-21           [-1, 32, 16, 16]               0
@@ -33,8 +33,8 @@
              ReLU-28             [-1, 64, 8, 8]               0
       BatchNorm2d-29             [-1, 64, 8, 8]             128
           Dropout-30             [-1, 64, 8, 8]               0
-           Conv2d-31             [-1, 64, 8, 8]             576
-           Conv2d-32             [-1, 64, 8, 8]           4,096
+           Conv2d-31             [-1, 64, 8, 8]             576  | <--- Depthwise Seperable
+           Conv2d-32             [-1, 64, 8, 8]           4,096  |      Convolution
              ReLU-33             [-1, 64, 8, 8]               0
       BatchNorm2d-34             [-1, 64, 8, 8]             128
           Dropout-35             [-1, 64, 8, 8]               0
