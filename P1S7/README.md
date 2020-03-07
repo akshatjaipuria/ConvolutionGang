@@ -1,4 +1,4 @@
-### Model Architecture
+## Model Architecture
 ```
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
@@ -64,7 +64,7 @@ Params size (MB): 0.24
 Estimated Total Size (MB): 3.69
 ----------------------------------------------------------------
 ```
-### Training Epochs
+## Training Epochs
 ```
  0%|          | 0/391 [00:00<?, ?it/s]
 EPOCH: 1
