@@ -1,3 +1,8 @@
+## Overview
+```
+Number of Parameters : 63,866
+80% Validation accuracy achieved in 14th epoch.
+```
 ## Model Architecture
 ```
 ----------------------------------------------------------------
