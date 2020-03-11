@@ -3,6 +3,9 @@ import torch
 import torch.optim as optim
 from torch import nn
 
+if __name__ == '__main__':
+    "the rest of the codes in train.py"
+
 
 class train_model:
     def __init__(self, trainloader, testloader, device):
@@ -76,13 +79,13 @@ class train_model:
 
         self.test_acc.append(100. * correct / len(test_loader.dataset))
 
-    def run_model(self, Net, lr=0.01, epochs=10, l1=0, l2=0,):
+    def run_model(self, net, lr=0.01, epochs=10, l1=0, l2=0, ):
         """
         l1 and l2 hold the lambda values for the respective regularization.
         l1 - Lasso Regularization
         l2 - Ridge Regularization
         """
-        model = Net().to(self.device)
+        model = net.to(self.device)
         optimizer = optim.SGD(model.parameters(), lr=lr, momentum=0.9, weight_decay=l2)
         # scheduler = StepLR(optimizer, step_size=10, gamma=0.5)
         loss_func = nn.CrossEntropyLoss()
@@ -92,3 +95,4 @@ class train_model:
             self.train(model, self.device, self.trainloader, optimizer, loss_func, epoch, l1)
             # scheduler.step()
             self.test(model, self.device, self.testloader, nn.CrossEntropyLoss(reduction='sum'))
+        return [self.train_losses, self.test_losses, self.train_acc, self.test_acc]

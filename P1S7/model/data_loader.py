@@ -4,7 +4,6 @@ import torchvision.transforms as transforms
 
 
 def cifar10():
-    def load():
         train_transforms = transforms.Compose([
             #  transforms.ColorJitter(brightness=0.10, contrast=0.1, saturation=0.10, hue=0.1),
             #  transforms.RandomApply([transforms.CenterCrop(22),], p=0.1),
@@ -41,9 +40,9 @@ def cifar10():
         if cuda:
             torch.cuda.manual_seed(SEED)
 
-        trainloader = torch.utils.data.DataLoader(trainset, batch_size=128, shuffle=True, num_workers=4,
+        trainloader = torch.utils.data.DataLoader(trainset, batch_size=128, shuffle=True, num_workers=1,
                                                   pin_memory=True)
-        testloader = torch.utils.data.DataLoader(testset, batch_size=128, shuffle=False, num_workers=4, pin_memory=True)
+        testloader = torch.utils.data.DataLoader(testset, batch_size=128, shuffle=False, num_workers=1, pin_memory=True)
         classes = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
 
         return trainloader, testloader, classes
