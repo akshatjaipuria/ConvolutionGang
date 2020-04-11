@@ -20,12 +20,12 @@ MaxPooling with Kernel Size 4
 FC Layer 
 SoftMax
 ```
-3.Uses One Cycle Policy such that:
-  Total Epochs = 24
-  Max at Epoch = 5
-  LRMIN = FIND
-  LRMAX = FIND
-  NO Annihilation
+3.Uses One Cycle Policy such that:  
+  Total Epochs = 24  
+  Max at Epoch = 5  
+  LRMIN = FIND  
+  LRMAX = FIND  
+  NO Annihilation  
 
 4.Uses this transform -RandomCrop 32, 32 (after padding of 4) >> FlipLR >> Followed by CutOut(8, 8)
 
