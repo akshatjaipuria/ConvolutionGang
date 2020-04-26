@@ -6,6 +6,8 @@
 
 ## Results
 
+| :---: |:---:| :---:|
 | ![img](https://github.com/akshatjaipuria/EVA/blob/master/P1S13/yolo_pytorch/detected_images/img_053.jpg) | ![img](https://github.com/akshatjaipuria/EVA/blob/master/P1S13/yolo_pytorch/detected_images/img_367.jpg) | ![img](https://github.com/akshatjaipuria/EVA/blob/master/P1S13/yolo_pytorch/detected_images/img_444.jpg) |
+| :---: |:---:| :---:|
 
 
