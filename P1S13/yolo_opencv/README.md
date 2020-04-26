@@ -9,3 +9,5 @@ Due to large size, I haven't uploaded the weights file.
 | Raw | Detected |
 | :---: | :--------: |
 | ![1](files/akshat1.jpg) | ![1](files/detected_akshat1.jpg) |
+| ![2](files/akshat2.jpg) | ![1](files/detected_akshat2.jpg) |
+| ![3](files/akshat3.jpg) | ![1](files/detected_akshat3.jpg) |
