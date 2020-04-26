@@ -5,6 +5,7 @@ Due to large size, I haven't uploaded the weights file.
 
 ## Examples
 > On me... 😎
+
 | Raw | Detected |
 | :---: | :--------: |
 | ![1](files/akshat1.jpg) | ![1](files/detected_akshat1.jpg) |
