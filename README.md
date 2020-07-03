@@ -1,2 +1,2 @@
 # About
-The sections in the repository are the stepwise approach in learning CNNs.
+Here I present my stepwise approach on building intution around CNNs.
