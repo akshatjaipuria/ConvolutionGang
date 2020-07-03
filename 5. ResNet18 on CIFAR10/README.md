@@ -1,5 +1,5 @@
 ## Task
-From now on  will will use modular code instead of everything in a single notebook. The tasks involve:
+From now on  we will use modular code instead of everything in a single notebook. The tasks involve:
 - Using ResNet18 Model to Train on CIFAR10
 - Achieving 85% accuracy.
 ### Additions
