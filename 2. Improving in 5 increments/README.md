@@ -1,4 +1,5 @@
-This folder contains a stepwise analysis of building a CNN model for MNIST digits dataset. We perform this in five steps, with the following target:  
+## Coding Drilldown
+A stepwise analysis of building a CNN model for MNIST digits dataset. We perform this in five steps, with the following target:  
 1. 99.4% Test accuracy.  
 2. Less than or equal to 15 Epochs.  
 3. Less than 10000 Parameters.  
@@ -135,75 +136,60 @@ Estimated Total Size (MB): 0.64
 ```
 ## Final Model's training epochs:
 ```
- 0%|          | 0/469 [00:00<?, ?it/s]
 EPOCH: 1
 Loss=0.0670732781291008 Batch_id=468 Accuracy=89.80: 100%|██████████| 469/469 [00:15<00:00, 37.92it/s]
-  0%|          | 0/469 [00:00<?, ?it/s]
 Test set: Average loss: 0.0659, Accuracy: 9829/10000 (98.29%)
 
 EPOCH: 2
 Loss=0.12398222833871841 Batch_id=468 Accuracy=97.79: 100%|██████████| 469/469 [00:14<00:00, 32.87it/s]
-  0%|          | 0/469 [00:00<?, ?it/s]
 Test set: Average loss: 0.0383, Accuracy: 9893/10000 (98.93%)
 
 EPOCH: 3
 Loss=0.03551769629120827 Batch_id=468 Accuracy=98.28: 100%|██████████| 469/469 [00:15<00:00, 29.68it/s]
-  0%|          | 0/469 [00:00<?, ?it/s]
 Test set: Average loss: 0.0303, Accuracy: 9910/10000 (99.10%)
 
 EPOCH: 4
 Loss=0.021600447595119476 Batch_id=468 Accuracy=98.51: 100%|██████████| 469/469 [00:15<00:00, 30.90it/s]
-  0%|          | 0/469 [00:00<?, ?it/s]
 Test set: Average loss: 0.0344, Accuracy: 9899/10000 (98.99%)
 
 EPOCH: 5
 Loss=0.0048032947815954685 Batch_id=468 Accuracy=98.62: 100%|██████████| 469/469 [00:15<00:00, 32.79it/s]
-  0%|          | 0/469 [00:00<?, ?it/s]
 Test set: Average loss: 0.0264, Accuracy: 9922/10000 (99.22%)
 
 EPOCH: 6
 Loss=0.04661647602915764 Batch_id=468 Accuracy=98.74: 100%|██████████| 469/469 [00:16<00:00, 29.15it/s]
-  0%|          | 0/469 [00:00<?, ?it/s]
 Test set: Average loss: 0.0244, Accuracy: 9930/10000 (99.30%)
 
 EPOCH: 7
 Loss=0.061236124485731125 Batch_id=468 Accuracy=98.84: 100%|██████████| 469/469 [00:15<00:00, 30.26it/s]
-  0%|          | 0/469 [00:00<?, ?it/s]
 Test set: Average loss: 0.0313, Accuracy: 9899/10000 (98.99%)
 
 EPOCH: 8
 Loss=0.017667658627033234 Batch_id=468 Accuracy=98.86: 100%|██████████| 469/469 [00:14<00:00, 31.74it/s]
-  0%|          | 0/469 [00:00<?, ?it/s]
 Test set: Average loss: 0.0215, Accuracy: 9938/10000 (99.38%)
 
 EPOCH: 9
 Loss=0.06397314369678497 Batch_id=468 Accuracy=98.88: 100%|██████████| 469/469 [00:15<00:00, 32.83it/s]
-  0%|          | 0/469 [00:00<?, ?it/s]
 Test set: Average loss: 0.0209, Accuracy: 9935/10000 (99.35%)
 
 EPOCH: 10
 Loss=0.03540671989321709 Batch_id=468 Accuracy=98.96: 100%|██████████| 469/469 [00:16<00:00, 29.25it/s]
-  0%|          | 0/469 [00:00<?, ?it/s]
 Test set: Average loss: 0.0203, Accuracy: 9941/10000 (99.41%)
 
 EPOCH: 11
 Loss=0.009100005030632019 Batch_id=468 Accuracy=98.95: 100%|██████████| 469/469 [00:15<00:00, 30.78it/s]
-  0%|          | 0/469 [00:00<?, ?it/s]
 Test set: Average loss: 0.0198, Accuracy: 9939/10000 (99.39%)
 
 EPOCH: 12
 Loss=0.008323957212269306 Batch_id=468 Accuracy=99.06: 100%|██████████| 469/469 [00:15<00:00, 30.97it/s]
-  0%|          | 0/469 [00:00<?, ?it/s]
 Test set: Average loss: 0.0191, Accuracy: 9932/10000 (99.32%)
 
 EPOCH: 13
 Loss=0.03727330267429352 Batch_id=468 Accuracy=99.04: 100%|██████████| 469/469 [00:15<00:00, 31.05it/s]
-  0%|          | 0/469 [00:00<?, ?it/s]
 Test set: Average loss: 0.0208, Accuracy: 9932/10000 (99.32%)
 
 EPOCH: 14
 Loss=0.03586318716406822 Batch_id=468 Accuracy=99.12: 100%|██████████| 469/469 [00:15<00:00, 30.40it/s]
-  0%|          | 0/469 [00:00<?, ?it/s]
 Test set: Average loss: 0.0189, Accuracy: 9946/10000 (99.46%)
 
 EPOCH: 15
